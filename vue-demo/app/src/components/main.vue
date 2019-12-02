@@ -95,7 +95,7 @@ export default {
       }
       Axios({
         method: 'get',
-        url: 'http://route.showapi.com/9-2',
+        url: 'https://route.showapi.com/9-2',
         params: {
           area: this.city,
           showapi_appid: '121200',
