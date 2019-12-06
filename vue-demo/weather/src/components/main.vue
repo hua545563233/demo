@@ -128,25 +128,23 @@ export default {
   padding: 0;
 }
 .main {
-  width: 80%;
   height: 100%;
   margin: 20px auto;
-  min-width: 1200px;
 }
 .city {
-  text-align: left;
-  padding-left: 50px;
+  text-align: center;
 }
 .city .el-input {
-  width: 300px;
+  width: 70%
 }
 .container {
   text-align: justify;
   border-top: 1px solid #ccc;
-  margin: 20px 50px;
+  margin: 20px;
   padding: 10px;
 }
 .container .now {
+  overflow: hidden;
   margin-top: 20px;
 }
 .container .now>div {
@@ -154,15 +152,14 @@ export default {
   text-align: center;
 }
 .container .now .left {
-  padding-left: 30px;
-  width: 30%;
+  width: 95%;
 }
 .container .now .right {
-  width: 65%;
+  width: 95%;
+  margin-top: 30px;
 }
 .left .b1, .left .b2 {
-  text-align: left;
-  margin-top: 20px;
+  text-align: center;
 }
 .left .b1 img {
   vertical-align: middle;
@@ -174,8 +171,11 @@ export default {
 .left .b2 span {
   font-size: 42px;
 }
+div .el-form-item {
+  margin-bottom: 0px;
+}
 .right .el-form-item__content {
-  min-width: 100px;
+  min-width: 150px;
 }
 .right .el-form-item__content span {
   font-weight: 16px;
